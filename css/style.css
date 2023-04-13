@@ -1,5 +1,78 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=VT323&display=swap');
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+main{
+    flex-grow: 1;
+    background-color: black;
+}
+h2{
+    font-family: 'VT323', monospace;
+    color: #fff;
+}
+.text-Azul{
+    text-shadow: 0 0 5px #236dde,
+    0 0 10px #236dde,
+    0 0 15px #236dde,
+    0 0 25px #236dde,
+    0 0 35px #236dde,
+    0 0 45px #236dde,
+    0 0 55px #236dde,
+    0 0 65px #236dde,
+    0 0 75px #236dde,
+    0 0 85px #236dde,
+    0 0 95px #236dde,
+    0 0 100px #236dde;
+}
+.text-Gris{
+    text-shadow: 0 0 5px #85878a,
+    0 0 10px #85878a,
+    0 0 15px #85878a,
+    0 0 25px #85878a,
+    0 0 35px #85878a,
+    0 0 45px #85878a,
+    0 0 55px #85878a,
+    0 0 65px #85878a,
+    0 0 75px #85878a,
+    0 0 85px #85878a,
+    0 0 95px #85878a,
+    0 0 100px #85878a;
+}
+.text-Rojo{
+    text-shadow: 0 0 5px #bc2419,
+    0 0 10px #bc2419,
+    0 0 15px #bc2419,
+    0 0 25px #bc2419,
+    0 0 35px #bc2419,
+    0 0 45px #bc2419,
+    0 0 55px #bc2419,
+    0 0 65px #bc2419,
+    0 0 75px #bc2419,
+    0 0 85px #bc2419,
+    0 0 95px #bc2419,
+    0 0 100px #bc2419;
+}
+
+.btn-Azul{
+    background: #236dde;
+    color: #fff;
+}
+.btn-Azul:hover{
+    border: 1px solid #236dde
+}
+.btn-Gris{
+    background: #85878a;
+    color: #fff;
+}
+.btn-Gris:hover{
+    border: 1px solid #85878a
+}
+.btn-Rojo{
+    background: #bc2419;
+    color: #fff;
+}
+.btn-Rojo:hover{
+    border: 1px solid #bc2419
 }
