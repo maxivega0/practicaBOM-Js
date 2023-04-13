@@ -1,15 +1,15 @@
 // Window es objeto del BOM
 // setTimeout -> ejecuta una funcion "x" tiempo en ms.
-// let contador = 1;
-// function mensaje() {
-//     document.write(`<p>Esta es una prueba de setTimeout, N= ${contador}</p>`);
+let contador = 1;
+function mensaje() {
+    document.write(`<p>Esta es una prueba de setTimeout, N= ${contador}</p>`);
     
-//     if (contador === 6) {
-//         //Logica para detener un setInterval ((Para eso creamos la variable)
-//         clearInterval(idInterval);
-//     }
-//     contador++;
-// }
+    if (contador === 6) {
+        //Logica para detener un setInterval ((Para eso creamos la variable)
+        clearInterval(idInterval);
+    }
+    contador++;
+}
 
 // 2 argumentos, primero la funcion, luego el tiempo en ms 
 // window.setTimeout(mensaje, 3000);
@@ -26,3 +26,5 @@
 // // }, 1000); 
 // //* almacenamos en una variable para detenerlo
 // const idInterval = setInterval(mensaje,2000);
+
+
